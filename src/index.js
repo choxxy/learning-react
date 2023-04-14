@@ -30,7 +30,7 @@ const books = [
 ]
 
 const BookList = () => {
-  // listeners can alos be passed as props
+  // listeners can also be passed as reference in props
   const bookSelectedListener = (bookId) => {
     const book = books.find((book) => book.id === bookId)
     alert('Clicked on ' + book.title)
