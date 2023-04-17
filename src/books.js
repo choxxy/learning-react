@@ -1,9 +1,11 @@
+import img1 from './images/book-1.jpg'
+
 export const books = [
   {
     id: 1,
     title: 'Dog Man: Twenty Thousand Fleas Under the Sea: A Graphic Novel',
     author: 'Dav Pilkey',
-    img: './images/book-1.jpg',
+    img: img1,
   },
   {
     id: 2,
